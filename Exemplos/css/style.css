@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #9ed0d0;
+}
+
+.content-center{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background: #FFF;
+    border-radius: 15px;
+}
+
+.content-center img{
+    width: 70%;
+}
+
+.content-center .text-center{
+    text-align: center;
+}
+
+.content-center form{
+    margin: 20px;
+}
+
+.content-center input, button{
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.content-center input{
+    border-bottom: 2px solid #CCC;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.content-center input:focus{
+    border-bottom-color: #366b6b;
+}
+
+.content-center button{
+    border-radius: 15px;
+    background: #3c9696;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.content-center button:hover{
+    background: #366b6b;
+}
+
+.content-center button:active{
+    background: #0d8282;
+}
+
+header a{
+    color:#39383c;
+    text-decoration: none;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 30px auto;
+}
+
+header a:focus{
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header a:visited{
+    text-decoration: underline;
+}
+
+footer h6{
+    text-align: center;
+}
+
+/* Style for Tabuada Automática */ 
+
+.content-tabuada{
+    max-width: 500px;
+    background: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.content-tabuada table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-tabuada thead td{
+    font-weight: bold;
+}
+
+.content-tabuada td{
+    border-top: 1px solid #dee2e6;
+    padding: 0.75rem;
+}
+
+.content-tabuada tbody tr:nth-child(odd){
+    background: rgb(213, 213, 223);
+}
+
+.content-tabuada tbody tr:hover{
+    background: #aee9e98a;
+    cursor: pointer;
+}
+
+#valorA{
+    width: 100%;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+/* Style for Listas de Tarefas */
+
+.content-center .todo{
+    list-style: none;
+    padding: 0;
+}
+
+.todo li{
+    padding: 10px;
+    border-bottom: 1px #ccc solid;
+}
+
+.todo li input{
+    width: initial;
+    margin-right: 10px;
+}
+
+.todo li.complete{
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+}
+
+#text-center{
+    text-align: center;
+}
+
+.todo button{
+    width: 10%;
+    height: 30px;
+    min-width: 30px;;
+    float: right;
+    color: white;
+    background: #0d8282;
+    border-radius: 10px;
+    text-align: center;
+}
